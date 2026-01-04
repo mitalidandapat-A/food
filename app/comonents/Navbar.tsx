@@ -3,6 +3,7 @@ import React from 'react'
 import Menu from './Menu'
 import CartIcons from './CartIcons'
 import { FiPhone } from "react-icons/fi"
+import { ThemeToggle } from './theme-providers'
 
 function Navbar() {
     const user = false;
@@ -26,6 +27,7 @@ function Navbar() {
         </div>
         {!user ? (<Link href="/login">Login</Link>) : (<Link href="/orders">Orders</Link>) }
         <CartIcons />
+        <ThemeToggle />
         </div>
     </div>
   )
