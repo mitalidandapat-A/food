@@ -39,8 +39,7 @@ const Slider = () => {
 
       <div className='flex-1 flex flex-col items-center justify-center gap-8 md:gap-10 text-red-500 font-bold lg:h-full lg:w-1/2'>
         <h1 className='text-2xl text-center uppercase p-4 md:p-10 md:text-4xl xl:text-6xl'>{data[currentSlide].title}</h1>
-        
-        <Button variant="destructive">Order Now</Button>
+        <Button className='bg-red-500 text-white hover:bg-red-600'>Order Now</Button>
       </div>
       <div className='relative w-full flex-1 overflow-hidden lg:h-full lg:w-1/2'>
         <Image src={data[currentSlide].image} alt="slider" fill className='object-cover 
