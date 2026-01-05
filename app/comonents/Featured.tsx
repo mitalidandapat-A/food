@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import { featuredProducts } from "../data";
 import { Button } from "@/components/ui/button";
+import  Link  from "next/link";
 
 const Featured = () => {
   return (
@@ -29,7 +30,8 @@ const Featured = () => {
 
           <CardContent className="flex flex-col  items-center text-center">
             <span className="font-semibold text-xl ">${product.price}</span>
-            <Button className="mt-4 bg-red-500 text-white p-2 rounded-md hover:bg-red-600">Add to Cart</Button>
+            {/* <Button className="mt-4 bg-red-500 text-white p-2 rounded-md hover:bg-red-600">Add to Cart</Button> */}
+            <Link href="/cart" className="mt-4 bg-red-500 text-white p-2 rounded-md hover:bg-red-600">Add to Cart</Link>
           </CardContent>
         </Card>
       ))}
