@@ -21,7 +21,6 @@ const Menupage = () => {
           className="w-full h-1/3 md:w-1/3 md:h-full bg-cover p-8" 
           style={{backgroundImage:`url(${category.img})`}}
         >
-          {/* Content */}
           <div
             className={`w-full md:w-1/2 ${category.color === "white" ? "text-white" : "text-black"}`}
           >

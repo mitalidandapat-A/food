@@ -7,7 +7,7 @@ import {
   CardContent,
 } from "@/components/ui/card";
 import { featuredProducts } from "../data";
-import { Button } from "@/components/ui/button";
+
 import  Link  from "next/link";
 
 const Featured = () => {

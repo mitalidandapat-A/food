@@ -26,14 +26,8 @@ export const metadata: Metadata = {
     "Delicious Pizza",
     "Food Delivery Service",
   ],
-  icons: {
-    icon: [
-      { url: "/images/logo3.png", sizes: "32x32", type: "image/png" },
-      { url: "/images/logo3.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: "/apple-touch-icon.png",
-    shortcut: "/images/logo3.png",
-  },
+  
+    
 };
 
 export default function RootLayout({
