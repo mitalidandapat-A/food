@@ -69,7 +69,6 @@ const Loginpage = () => {
 
         <CardContent className="space-y-6">
           <form className="space-y-5">
-            {/* Email Input */}
             <div className="space-y-2">
               <Label 
                 htmlFor="email" 
